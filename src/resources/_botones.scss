@@ -1,0 +1,80 @@
+@use './config' as c;
+
+//Botones
+
+.btn {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: c.$primary-color;
+  color: c.$white;
+}
+
+.btn-primary:hover {
+  background: #39caf7;
+}
+
+.btn-outline {
+  border: 2px solid c.$primary-color;
+  color: c.$primary-color;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: c.$primary-color;
+  color: c.$white;
+}
+
+//TAGS
+
+.tech-tags {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.tag {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+  border: 1px solid transparent;
+  line-height: 1;
+}
+
+/* JS */
+.tag.js {
+  background-color: #FDB90F;
+  color: #1f2933;
+  border-color: #ffe08a;
+}
+
+/* HTML */
+.tag.html {
+  background-color: #f1f3f5;
+  color: #1f2933;
+  border-color: #e1e5ea;
+}
+
+/* CSS */
+.tag.css {
+  background-color: #eef3ff;
+  color: #1f3a8a;
+  border-color: #d6e0ff;
+}
+
+.tag.vite {
+  background-color: #FDAC01;
+  color: #1f2933;
+  border-color: #ffe08a;
+}

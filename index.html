@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+    <title>Portfolio | Web Lab | Wilian Peña</title>
+    <meta name="description" content="Portfolio de Wilian Peña, desarrollador web. Proyectos realizados durante el curso Web Lab en escuela Area 2025-2026.">
+  </head>
+  <body>    
+
+    <!-- HERO -->
+<div class="container">
+  <header class="hero">
+  <div class="hero-text">
+    <h1>Hola, soy <span>Wilian Peña</span></h1>
+    <h2>Web Developer | Web Lab <span>25-26</span></h2>
+    <p>Desarrollo aplicaciones web modernas con HTML, CSS, JavaScript y Vite.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary btn-proyecto"><i class="fa fa-rocket"></i>Ver proyectos</a>
+      <a href="https://github.com/wiliespe90" class="btn btn-outline btn-github"><i class="fa fa-github"></i> GitHub</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="./img/hero.avif" alt="Developer">
+  </div>
+</header>
+</div>
+
+<!-- PROYECTOS -->
+<section class="projects" id="projects">
+  <h2 class="section-title">Mis proyectos</h2>
+
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <img src="img/proyecto01.avif" alt="Proyecto Hola Mundo">
+      <div class="project-content">
+        <h3>Proyecto Hola Mundo</h3>
+        <p>Proyecto inicial introducción al HTML,CSS y JS. </p>
+        <div class="tech-tags">
+          <span class="tag html">HTML</span>
+          <span class="tag css">CSS</span>
+          <span class="tag js">JS</span>
+        </div>
+
+        <div class="project-actions">
+          <a href="img/proyecto01.avif" class="btn btn-primary" target="_blank">Ver proyecto</a>
+          <a href="https://github.com/wiliespe90/PROYECTO1-HOLA-MJNDO" class="btn btn-outline">Código</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="img/proyecto02.avif" alt="Proyecto Vite">
+      <div class="project-content">
+        <h3>Proyecto con Vite</h3>
+        <p>Proyecto sencillo sólo para entender la creación de un"vite vanilla" desde cero.</p>
+        <div class="tech-tags">
+          <span class="tag html">HTML</span>
+          <span class="tag css">CSS</span>
+          <span class="tag vite">Vite</span>
+        </div>
+
+        <div class="project-actions">
+          <a href="img/proyecto02.avif" class="btn btn-primary" target="_blank">Ver proyecto</a>
+          <a href="https://github.com/wiliespe90/PROYECTO2-HOLA-VITE" class="btn btn-outline">Código</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="img/proyecto03.avif" alt="Portfolio">
+      <div class="project-content">
+        <h3>Proyecto Portfolio</h3>
+        <p>Proyecto portfolio para poder disponer de un index del resto de proyectos del curso.</p>
+        <div class="tech-tags">
+          <span class="tag html">HTML</span>
+          <span class="tag css">CSS</span>
+          <span class="tag js">JS</span>
+          <span class="tag vite">Vite</span>
+        </div>
+
+        <div class="project-actions">
+          <a href="img/proyecto03.avif" class="btn btn-primary" target="_blank">Ver proyecto</a>
+          <a href="#" class="btn btn-outline">Código</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- SOBRE MI -->
+<div class="container">
+    <section class="about" id="about">
+  <div class="about-container">
+
+    <!-- LEFT -->
+    <div class="about-left">
+      <h2>Sobre Mí</h2>
+
+      <p class="about-text">
+        Soy un apasionado del desarrollo web en formación en Web Lab Area.
+        Actualmente aprendiendo:
+      </p>
+
+      <ul class="about-list">
+        <li>
+          <span class="icon">
+            <!-- Code icon -->
+            <svg viewBox="0 0 24 24">
+              <path d="M8 17l-5-5 5-5M16 7l5 5-5 5" />
+            </svg>
+          </span>
+          HTML, CSS y JavaScript
+        </li>
+
+        <li>
+          <span class="icon">
+            <!-- Rocket icon -->
+            <svg viewBox="0 0 24 24">
+              <path d="M5 15l4 4L19 9l-4-4L5 15z" />
+            </svg>
+          </span>
+          Vite y frameworks como React.
+        </li>
+
+        <li>
+          <span class="icon">
+            <!-- Monitor icon -->
+            <svg viewBox="0 0 24 24">
+              <path d="M3 4h18v12H3zM8 20h8" />
+            </svg>
+          </span>
+          Creación de aplicaciones web modernas.
+        </li>
+      </ul>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="about-divider"></div>
+
+    <!-- RIGHT -->
+    <div class="about-right">
+      <h2>Me encantaría</h2>
+
+      <ul class="soft-list">
+        <li>
+          <svg viewBox="0 0 24 24">
+            <path d="M16 11c1.66 0 3-1.34 3-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zM8 11c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zM8 13c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13z"/>
+          </svg>
+          Trabajo en equipo y comunicación.
+        </li>
+
+        <li>
+          <svg viewBox="0 0 24 24">
+            <path d="M9 21h6v-1H9v1zM12 2a7 7 0 00-4 12.74V17a1 1 0 001 1h6a1 1 0 001-1v-2.26A7 7 0 0012 2z"/>
+          </svg>
+          Pensamiento lógico y ganas de aprender.
+        </li>
+      </ul>
+
+      <div class="tech-tags">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+      </div>
+    </div>
+
+  </div>
+    </section>
+</div>
+
+<!-- FOOTER -->
+  <footer class="footer">
+  <div class="footer-container">
+
+    <p class="footer-text">
+      © 2026 · Wilian Peña — Web Developer
+    </p>
+
+  </div>
+</footer>
+    
+    
+    
+  </body>
+</html>
+
+<script type="module" src="/src/main.js"></script>

@@ -1,0 +1,32 @@
+
+
+// reseteo de estilos del navegador
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  font-size: 16px; // 1rem = 16px (estándar)
+}
+
+// Variables de mi proyecto
+$primary-color: #38bdf8;
+$light-bg: #f4f4f4;
+$white: #ffffff;
+$text-color: #222;
+
+$radius-sm: 0.5rem; // 8px
+$radius-md: 1rem; // 16px
+$section-padding:  8%;
+
+$tablet: 600px;
+$desktop: 1200px;
+
+
+
+

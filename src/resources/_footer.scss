@@ -1,0 +1,19 @@
+@use './config' as c;
+
+
+.footer {
+  color: c.$text-color;
+  padding: 2.5rem 1.5rem;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* TEXT */
+.footer-text {
+  font-size: 0.85rem;
+}
+

@@ -1,0 +1,98 @@
+@use './config' as c;
+
+/* SOBRE MI */
+
+.about {
+  padding: 4rem 0;
+}
+
+.about-left,.about-right {
+  border: 1px solid #f0f0f0;
+  padding: 0.75rem; 
+  border-radius: 0.75rem;
+}
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* TITLES */
+.about h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: #1f2933;
+}
+
+/* LEFT */
+.about-text {
+  font-size: 1rem;
+  color: #5f6c7b;
+  margin-bottom: 1.75rem;
+}
+
+.about-list {
+  list-style: none;
+}
+
+.about-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+  color: #1f2933;
+}
+
+/* ICONS */
+.icon,
+.soft-list svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: c.$primary-color;
+  fill: none;
+  stroke-width: 2;
+}
+
+/* RIGHT */
+.soft-list {
+  list-style: none;
+  margin-bottom: 1.75rem;
+}
+
+.soft-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+  color: #1f2933;
+}
+
+/* TAGS */
+
+.skill {
+  padding: 0.45rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  border: 1px solid #d9dce1;
+}
+
+@media (min-width: c.$tablet) {
+    .about-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+
+  .about-left,
+  .about-right {
+    flex: 1;
+    border: none;
+  }
+}

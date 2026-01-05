@@ -1,0 +1,33 @@
+
+@use './resources/_config' as c;
+@use './resources/_botones';
+@use './resources/_hero';
+@use './resources/_proyectos';
+@use './resources/_sobreMi';
+@use './resources/_footer';
+
+
+body {
+  background: c.$light-bg;
+  color: c.$text-color;
+  line-height: 1.3;
+}
+
+
+section {
+  padding: c.$section-padding;
+}
+
+h1 span {
+  color: c.$primary-color;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
